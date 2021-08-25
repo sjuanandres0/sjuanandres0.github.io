@@ -41,7 +41,7 @@ additional_links:
   url: sjuanandres0.github.io
 
 - title: kaggle
-  icon: fas fa-kaggle
+  icon: images/kaggle-brands.ico #fas fa-kaggle
   url: https://www.kaggle.com/juanandressimonetti
 
 
