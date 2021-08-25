@@ -9,13 +9,13 @@ version: 2
 name: JUAN ANDRES SIMONETTI
 title: Industrial Engineer keen on Data Science
 email: sjuanandres0@gmail.com
-website: https://sjuanandres0.github.io/
+website: sjuanandres0.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: sjuanandres
+#twitter_username: sjuanandres
 github_username:  sjuanandres0
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -62,16 +62,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Short Term Bitcoin Price Prediction with Deep Learning
+        link: https://github.com/sjuanandres0/crypto
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  sjuanandres0/crypto
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/sjuanandres0/crypto
+          - title:  Medium
+            icon: fab fa-medium
+            url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
