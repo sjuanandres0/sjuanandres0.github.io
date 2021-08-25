@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/chess-pawn-solid.ico
+favicon: images/kisspng-chess-piece-rook-pawn-checkmate-checkmate-chess-figure-game-pawn-icon-chess-free-5d365bd29ce896.6228112815638435386427.png
 
 # Content configuration version
 version: 2
@@ -23,7 +23,7 @@ github_username:  sjuanandres0
 # flickr_username: jekyll
 #instagram_username: asd
 linkedin_username: juan-andres-simonetti
-kaggle_username: juanandressimonetti
+#kaggle_username: juanandressimonetti
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -35,6 +35,16 @@ kaggle_username: juanandressimonetti
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
+
+- title: web
+  icon: fas fa-globe
+  url: sjuanandres0.github.io
+
+- title: kaggle
+  icon: fas fa-kaggle
+  url: https://www.kaggle.com/juanandressimonetti
+
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
