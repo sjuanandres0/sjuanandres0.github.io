@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme #repository: danifranco/danifranco.github.io
-favicon: images/favicon.ico
+favicon: images/pawn.png #favicon.ico
 
 # Content configuration version
 version: 2
