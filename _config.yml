@@ -36,13 +36,13 @@ linkedin_username: juan-andres-simonetti
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
 
-- title: web
-  icon: fas fa-globe
-  url: sjuanandres0.github.io
+#- title: web
+#  icon: fas fa-globe
+#  url: sjuanandres0.github.io
 
-- title: kaggle
-  icon: fas fa-kaggle
-  url: https://www.kaggle.com/juanandressimonetti
+#- title: kaggle
+#  icon: fas fa-kaggle
+#  url: https://www.kaggle.com/juanandressimonetti
 
 
 # - title: another link
@@ -153,4 +153,3 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-# https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free to look for icons
