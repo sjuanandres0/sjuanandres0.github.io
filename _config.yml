@@ -32,12 +32,12 @@ linkedin_username: juan-andres-simonetti
 
 # Additional icon links
 additional_links:
+- title: telegram
+  icon: fab fa-telegram-plane
+  url: https://t.me/s0juan
 - title: web
   icon: fas fa-globe
   url: sjuanandres0.github.io
-- title: telegram
-  icon: fas fa-telegram-plane
-  url: https://t.me/s0juan
 #- title: kaggle
 #  icon: fas fa-kaggle
 #  url: https://www.kaggle.com/juanandressimonetti
@@ -85,7 +85,7 @@ content:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
           - title: jupyter
-            icon: fab fa-medium
+            icon: far fa-bookmark
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
         description: | # this will include new lines to allow paragraphs
           This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
@@ -166,12 +166,8 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Some of my hobbies are:
-      - Climbing
-      - Cycling
-      - Cooking (consistently failing at making a perfect sourdough bread)
-      - Chess
-      - Dutch
+      When not in front of the screen, I would probably be climbing, cycling, cooking or learning chess/dutch.
+
 #      Look at this cool image  
 #      ![Trees](/images/landscape-trees.jpg "Trees")
 
