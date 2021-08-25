@@ -15,14 +15,15 @@ website: sjuanandres0.github.io
 darkmode: false
 
 # Social links
-#twitter_username: sjuanandres
+#twitter_username: asd
 github_username:  sjuanandres0
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: sjuanandres0
+#instagram_username: asd
 linkedin_username: juan-andres-simonetti
+kaggle_username: juanandressimonetti
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -66,10 +67,10 @@ content:
         link: https://github.com/sjuanandres0/crypto
         # link_text: Project Website
         additional_links:
-          - title:  sjuanandres0/crypto
+          - title:  
             icon: fab fa-github
             url: https://github.com/sjuanandres0/crypto
-          - title:  Medium
+          - title:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
         quote: >
