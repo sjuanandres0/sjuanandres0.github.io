@@ -84,7 +84,7 @@ content:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
           - title:
-            icon: images/jupyter_icon_132275.ico #fab fa-book-open
+            icon: fab fa-book-open #images/jupyter_icon_132275.ico #
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
 #        quote: >
 #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
