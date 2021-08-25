@@ -39,9 +39,12 @@ additional_links:
 - title: web
   icon: fas fa-globe
   url: sjuanandres0.github.io
-- title: kaggle
-  icon: fas fa-kaggle
-  url: https://www.kaggle.com/juanandressimonetti
+#- title: kaggle
+#  icon: fas fa-kaggle
+#  url: https://www.kaggle.com/juanandressimonetti
+- title: telegram
+  icon: fas fa-telegram
+  url: https://t.me/s0juan
 
 
 # - title: another link
@@ -50,9 +53,9 @@ additional_links:
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000" G-5B1JFM643R
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# gtm: "GTM-0000000" G-5B1JFM643R 
+# gtag: "UA-00000000-0" 
+google_analytics: G-5B1JFM643R #"UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -71,7 +74,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: top-right
         title: Short Term Bitcoin Price Prediction with Deep Learning
         link: github.com/sjuanandres0/crypto
         # link_text: Project Website
@@ -83,30 +86,30 @@ content:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
           - title: jupyter
-            icon: fab fa-book-open
+            icon: fab fa-medium
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
 #          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. Do not take financial decisions based on the results.  
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-      - layout: top
-        title: Recommendations with IBM using NLTK
+
+
+
+      - layout: top-right
+        title: Recommendations with IBM using Natual Language Processing (NLP)
         link: github.com/sjuanandres0/Recommendations_with_IBM
         # link_text: Project Website
         additional_links:
           - title: github
             icon: fab fa-github
             url: https://github.com/sjuanandres0/Recommendations_with_IBM
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          In this project I gained hands-on experience with Text Processing. In essence, based on previous data interaction between users and IBM Watson Studio Platform articles, the algorithm recommends to each user future articles to read.
+          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and make recommendations to them about new articles I think they will like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, User-User Collaborative Filtering, Content and Matrix Factorization.
+          This project is part of the Udacity Nanodegree Program.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Working Experience 
+    layout: list
     content:
       - layout: left
         title: Industrial Engineer
@@ -114,14 +117,31 @@ content:
         # link_text: boringcompany.com
         sub_title: FedEx
         caption: January 2020 - Present
-#        quote: >
-#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Developed a SQL+Python tool to improve accuracy, scalability and speed of P2O transit times maintenance process.
             - Support management with the analysis, interpretation and application of complex information.
             - Plan and execute location and routing system updates in support of operational changes.
             - Coordinate planning for system updates with colleagues and stakeholders in the field and central network.
-#            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+      - layout: left
+        title: Project Manager
+        link: www.mr-marinegroup.com
+        # link_text: boringcompany.com
+        sub_title: MR Marine Group
+        caption: July 2019 - January 2020
+        description: | # this will include new lines to allow paragraphs
+            - Responsible for the successful completion of inspection and repair projects on marine elevators worldwide. 
+            - Independently analysing elevator problems and assigning right S/E and materials needed.
+            - Customer liaison, preparing proposals, planning of work, organizing and coordinating projects.
+            - Contact with customers, sub-contractors, material suppliers, shipping agents, forwarders, port authorities. 
+
+      - layout: left
+        title: Industrial Engineer
+        link: www.dopert.com.ar
+        # link_text: boringcompany.com
+        sub_title: Dopert Metal SRL
+        caption: September 2017 - March 2019
+#        description: | # this will include new lines to allow paragraphs
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -130,17 +150,17 @@ content:
         title: Data Scientist Nanodegree
         caption: 2021
         sub_title: Udacity
-#        quote: >
-#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        link: https://www.udacity.com/course/data-scientist-nanodegree--nd025
+        link_text: UDSN
         description: | # this will include new lines to allow paragraphs
-           Got theory and hands-on experience in real world Data Science projects.   
-#          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-#          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+           Got theory and hands-on experience in real world Data Science projects. 
 
       - layout: left
         title: Industrial Engineer
         caption: 2012-2018
-        sub_title: Universidad Nacional de Rosario (UNR)
+        sub_title: Universidad Nacional de Rosario 
+        link: https://web.fceia.unr.edu.ar/es/ingenier%C3%ADa-industrial.html
+        link_text: UNR
         description: | # this will include new lines to allow paragraphs
            Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
 
@@ -150,10 +170,9 @@ content:
       Some of my hobbies are:
       - Climbing
       - Cycling
-      - Cooking
+      - Cooking (consistently failing at making a perfect sourdough bread)
       - Chess
       - Dutch
-
 #      Look at this cool image  
 #      ![Trees](/images/landscape-trees.jpg "Trees")
 
