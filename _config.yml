@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme #repository: danifranco/danifranco.github.io
+repository: sjuanandres0/sjuanandres0.github.io #/resume-theme #repository: danifranco/danifranco.github.io
 favicon: images/pawn.png #favicon.ico
 
 # Content configuration version
@@ -39,9 +39,8 @@ additional_links:
 - title: web
   icon: fas fa-globe
   url: sjuanandres0.github.io
-
 - title: kaggle
-  icon: images/4519136_kaggle_icon.png #fas fa-kaggle
+  icon: fas fa-kaggle
   url: https://www.kaggle.com/juanandressimonetti
 
 
@@ -77,14 +76,14 @@ content:
         link: github.com/sjuanandres0/crypto
         # link_text: Project Website
         additional_links:
-          - title:  
+          - title: github
             icon: fab fa-github
             url: https://github.com/sjuanandres0/crypto
-          - title:
+          - title: medium
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
-          - title:
-            icon: fab fa-book-open #images/jupyter_icon_132275.ico #
+          - title: jupyter
+            icon: fab fa-book-open
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
 #        quote: >
 #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
@@ -92,6 +91,19 @@ content:
           This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
 #          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. Do not take financial decisions based on the results.  
 #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+      - layout: top
+        title: Recommendations with IBM using NLTK
+        link: github.com/sjuanandres0/Recommendations_with_IBM
+        # link_text: Project Website
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: https://github.com/sjuanandres0/Recommendations_with_IBM
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          In this project I gained hands-on experience with Text Processing. In essence, based on previous data interaction between users and IBM Watson Studio Platform articles, the algorithm recommends to each user future articles to read.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
