@@ -32,6 +32,12 @@ linkedin_username: juan-andres-simonetti
 
 # Additional icon links
 additional_links:
+- title: kaggle
+  icon: fab fa-kaggle
+  url: https://www.kaggle.com/juanandressimonetti
+- title: medium
+  icon: fab fa-medium
+  url: https://sjuanandres0.medium.com/
 - title: web
   icon: fas fa-globe
   url: sjuanandres0.github.io
@@ -41,9 +47,7 @@ additional_links:
 - title: email
   icon: fas fa-at
   url: simonettijuanandres@gmail.com
-#- title: kaggle
-#  icon: fas fa-kaggle
-#  url: https://www.kaggle.com/juanandressimonetti
+
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
@@ -73,11 +77,13 @@ about_content: | # this will include new lines to allow paragraphs
 # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+
+#######################
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
-        title: Short Term Bitcoin Price Prediction with Deep Learning
+        title: Short Term Bitcoin Price Prediction with Deep Learning (DL)
         link: github.com/sjuanandres0/crypto
         # link_text: Project Website
         additional_links:
@@ -110,6 +116,7 @@ content:
           This project is part of the Udacity Nanodegree Program.
 
 
+#######################
   - title: Working Experience 
     layout: list
     content:
@@ -137,27 +144,28 @@ content:
             - Customer liaison, preparing proposals, planning of work, organizing and coordinating projects.
             - Contact with customers, sub-contractors, material suppliers, shipping agents, forwarders, port authorities. 
 
-      - layout: left
+      - layout: top
         title: Industrial Engineer
-        link: www.dopert.com.ar
+        link: www.Dopert.com.ar
         # link_text: boringcompany.com
-        sub_title: Dopert Metal SRL
+        sub_title: Dopert Metal
         caption: September 2017 - March 2019
 #        description: | # this will include new lines to allow paragraphs
 
-      - layout: left
-        title: Industrial Engineer
-        link: www.dopert.com.ar
+      - layout: top
+        title: Dealer Development Intern
+        link: www.JohnDeere.com.ar
         # link_text: boringcompany.com
-        sub_title: Dopert Metal SRL
-        caption: September 2017 - March 2019
+        sub_title: John Deere
+        caption: October 2015 - March 2017
 #        description: | # this will include new lines to allow paragraphs
 
 
+#######################
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-right
         title: Data Scientist Nanodegree
         caption: 2021
         sub_title: Udacity
@@ -166,7 +174,7 @@ content:
         description: | # this will include new lines to allow paragraphs
            Got theory and hands-on experience in real world Data Science projects. 
 
-      - layout: left
+      - layout: top-right
         title: Industrial Engineer
         caption: 2012-2018
         sub_title: Universidad Nacional de Rosario 
@@ -175,6 +183,8 @@ content:
         description: | # this will include new lines to allow paragraphs
            Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
 
+
+#######################
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
