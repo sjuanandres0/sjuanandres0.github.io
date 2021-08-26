@@ -1,6 +1,6 @@
 # Site
 repository: sjuanandres0/sjuanandres0.github.io #/resume-theme #repository: danifranco/danifranco.github.io
-favicon: images/asterisk-solid.png #favicon.ico
+favicon: images/search-solid.png #asterisk-solid.png #favicon.ico
 
 # Content configuration version
 version: 2
@@ -98,7 +98,7 @@ content:
         quote: >
           <mark>Deep Learning - Keras</mark> <mark>Plotly</mark> <mark>Matplotlib</mark> <mark>SKLearn</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
+          This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put into practice many of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep Learning. 
 #          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. Do not take financial decisions based on the results.  
 
       - layout: top-right
@@ -106,7 +106,7 @@ content:
         quote: >
           <mark>Scrapy</mark> <mark>Requests</mark> <mark>RE</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          ThuisBot is a script that periodically scraps websites gathering relevant information about new houses for sale and sends automatic messages via Telegram when a new house match the set criteria (considering value, square meters, age of the property, energy label, among others). 
+          ThuisBot is a script that periodically scraps websites gathering relevant information about new houses for sale and sends automatic messages via Telegram when a new house matches the set criteria (considering value, square meters, age of the property, energy label, among others). 
           Unfortunately, I can't disclose the code, but it's built using Scrapy, Pandas, Numpy, Requests, Regular Expression and GitHub Actions.
           The project was driven by a personal need.
 
@@ -118,11 +118,13 @@ content:
           - title: github
             icon: fab fa-github
             url: https://github.com/sjuanandres0/disaster_response_pipeline_project
+        quote: >
+          <mark>SQLAlchemy</mark> <mark>NLTK</mark> <mark>RE</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project consists on an API that classifies disaster messages. 
+          This project consists of an API that classifies disaster messages. 
           For this purpose, a Machine Learning model using NLTK was trained with a labelled dataset provided by [Figure Eight](https://www.figure-eight.com/), saved in a pickle file and embedded in a webapp using Flask and Heroku. 
-          Users/pipelines are then able to used the trained model to classify messages according to the type of assistance required. 
-          With supervised learning, a Machine Learning model using NLTK library was trained in a labelled dataset provided by Figure Eight 
+          Users/pipelines are then able to use the trained model to classify messages according to the type of assistance required. 
+          With supervised learning, a Machine Learning model using NLTK library was trained in a labelled dataset provided by Figure Eight. 
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -142,8 +144,10 @@ content:
           - title: kaggle
             icon: fab fa-kaggle
             url: https://www.kaggle.com/juanandressimonetti/covid-19-countries-wealth-cases-deaths-and-vacc
+        quote: >
+          <mark>Plotly</mark> <mark>Seaborn</mark> <mark>Missingno</mark> <mark>SKLearn</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project was part from the Udacity Data Scientist Nanodegree where it was required to write a Data Analytics blog post from a topic of my choice. I decided to work on COVID-19 data trying to reply questions that were particular interesting for me. This project was very useful to learn how to gather real world data in the huge internet and generate interactive visualizations with Plotly. Additionally, I used Numpy, Pandas, SKLearn, Missingno and Seaborn. 
+          This project was part of the Udacity Data Scientist Nanodegree where it was required to write a Data Analytics blog post from a topic of my choice. I decided to work on COVID-19 data trying to reply questions that were particularly interesting for me. This project was very useful to learn how to gather real world data in the huge internet and generate interactive visualizations with Plotly. Additionally, I used Numpy, Pandas, SKLearn, Missingno and Seaborn. 
 
       - layout: top-right
         title: COVID19 - Dashboard (Analytics)
@@ -156,9 +160,11 @@ content:
           - title: webapp
             icon: fas fa-chart-line
             url: https://sja-covid19-webapp.herokuapp.com/
+        quote: >
+          <mark>Flask</mark> <mark>Heroku CI/CD</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>jQuery</mark> <mark>Plotly</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project consist on building a webapp to practise software engineering skills. 
-          It consists on a tailormade COVID-19 Dashboard that updates automatically.
+          This project consist of building a webapp to practise software engineering skills. 
+          It consists of a tailormade COVID-19 Dashboard that updates automatically.
           It's hosted in Heroku and it's feeded from Our World in Data.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
@@ -170,8 +176,10 @@ content:
           - title: github
             icon: fab fa-github
             url: https://github.com/sjuanandres0/Recommendations_with_IBM
+        quote: >
+          <mark>NLTK</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Matplotlib</mark> <mark>RE</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and make recommendations to them about new articles I think they will like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, User-User Collaborative Filtering, Content and Matrix Factorization.
+          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and made recommendations to them about new articles I think they will like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, User-User Collaborative Filtering, Content and Matrix Factorization.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -182,6 +190,8 @@ content:
           - title: kaggle
             icon: fab fa-kaggle
             url: https://www.kaggle.com/juanandressimonetti/cmp-acea-smart-water-analytics
+        quote: >
+          <mark>XGBoost</mark> <mark>SKLearn</mark> <mark>Seaborn</mark> <mark>Missingno</mark> <mark>Matplotlib</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
           In this project I predicted the Hydrometry (river level) of River Arno (Italy) considering historical records of Rainfall and Temperature in different geographical points. The Machine Learning algorithm used was XGBoost. 
           This project is part of a Kaggle Analytics Competition.
@@ -194,17 +204,17 @@ content:
         title: Industrial Engineer
         link: FedEx.com
         # link_text: boringcompany.com
-        sub_title: FedEx
+        sub_title: FedEx #[FedEx](https://www.FedEx.com/)
         caption: January 2020 - Present
         description: | # this will include new lines to allow paragraphs
-            - Developed a SQL+Python tool to improve accuracy, scalability and speed of P2O transit times maintenance process.
+            - Developed a SQL+Python tool to improve accuracy, scalability and speed of P2O transit times maintenance.
             - Support management with the analysis, interpretation and application of complex information.
             - Plan and execute location and routing system updates in support of operational changes.
             - Coordinate planning for system updates with colleagues and stakeholders in the field and central network.
 
       - layout: left
         title: Project Manager
-        link: www.mr-marinegroup.com
+        link: mr-marinegroup.com
         # link_text: boringcompany.com
         sub_title: MR Marine Group
         caption: July 2019 - January 2020
@@ -216,7 +226,7 @@ content:
 
       - layout: top
         title: Industrial Engineer
-        link: www.Dopert.com.ar
+        link: Dopert.com.ar
         # link_text: boringcompany.com
         sub_title: Dopert Metal
         caption: September 2017 - March 2019
@@ -224,7 +234,7 @@ content:
 
       - layout: top
         title: Dealer Development Intern
-        link: www.JohnDeere.com.ar
+        link: JohnDeere.com
         # link_text: boringcompany.com
         sub_title: John Deere
         caption: October 2015 - March 2017
