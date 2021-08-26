@@ -122,7 +122,7 @@ content:
           <mark>SQLAlchemy</mark> <mark>NLTK</mark> <mark>RE</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
           This project consists of an API that classifies disaster messages. 
-          For this purpose, a Machine Learning model using NLTK was trained with a labelled dataset provided by [Figure Eight](https://www.figure-eight.com/), saved in a pickle file and embedded in a webapp using Flask and Heroku. 
+          For this purpose, a Machine Learning model using NLTK was trained with a labelled dataset provided by Figure Eight, saved in a pickle file and embedded in a webapp using Flask and Heroku. 
           Users/pipelines are then able to use the trained model to classify messages according to the type of assistance required. 
           With supervised learning, a Machine Learning model using NLTK library was trained in a labelled dataset provided by Figure Eight. 
           This project was promoted/facilitated by Udacity in the Data Scientist program.
