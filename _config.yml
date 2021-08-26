@@ -1,6 +1,6 @@
 # Site
 repository: sjuanandres0/sjuanandres0.github.io #/resume-theme #repository: danifranco/danifranco.github.io
-favicon: images/pawn.png #favicon.ico
+favicon: images/asterisk-solid.png #favicon.ico
 
 # Content configuration version
 version: 2
@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: JUAN ANDRES SIMONETTI
 title: Industrial Engineer keen on Data Science
-email: sjuanandres0@gmail.com
-website: sjuanandres0.github.io
+email: simonettijuanandres@gmail.com
+#website: sjuanandres0.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -32,12 +32,15 @@ linkedin_username: juan-andres-simonetti
 
 # Additional icon links
 additional_links:
-- title: telegram
-  icon: fab fa-telegram-plane
-  url: https://t.me/s0juan
 - title: web
   icon: fas fa-globe
   url: sjuanandres0.github.io
+- title: telegram
+  icon: fab fa-telegram-plane
+  url: https://t.me/s0juan
+- title: email
+  icon: fas fa-at
+  url: simonettijuanandres@gmail.com
 #- title: kaggle
 #  icon: fas fa-kaggle
 #  url: https://www.kaggle.com/juanandressimonetti
@@ -53,8 +56,8 @@ additional_links:
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000" G-5B1JFM643R 
-# gtag: "UA-00000000-0" 
-google_analytics: "G-5B1JFM643R" #"UA-00000000-0"
+gtag: "G-5B1JFM643R" #"UA-00000000-0" 
+#google_analytics: "G-5B1JFM643R" #"UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -85,7 +88,7 @@ content:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
           - title: jupyter
-            icon: far fa-bookmark
+            icon: fas fa-book-open #far fa-bookmark
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
         description: | # this will include new lines to allow paragraphs
           This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
@@ -141,6 +144,15 @@ content:
         sub_title: Dopert Metal SRL
         caption: September 2017 - March 2019
 #        description: | # this will include new lines to allow paragraphs
+
+      - layout: left
+        title: Industrial Engineer
+        link: www.dopert.com.ar
+        # link_text: boringcompany.com
+        sub_title: Dopert Metal SRL
+        caption: September 2017 - March 2019
+#        description: | # this will include new lines to allow paragraphs
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
