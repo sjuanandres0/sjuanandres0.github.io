@@ -47,12 +47,9 @@ additional_links:
 - title: email
   icon: fas fa-at
   url: simonettijuanandres@gmail.com
-
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
-
-
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -67,14 +64,16 @@ gtag: "G-5B1JFM643R" #"UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Juan and I'm an Industrial Engineer keen on Data Science.
+  Hi, my name is Juan and I'm an <mark>Industrial Engineer</mark> keen on <mark>Data Science</mark>.
 
-  I strongly believe things can always be improved.
+  I certainly don’t know everything but I can learn anything (or well... almost anything 🙃).
+
+  I strongly believe things can always be improved. 
+
   Can-do and solution seeker mindset.
+  
   Team player and motivated by challenges.
 
-# Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
 
@@ -100,11 +99,35 @@ content:
           This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put in practise many of of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep learning. 
 #          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. Do not take financial decisions based on the results.  
 
-
-
+      - layout: top-right
+        title: ThuisBot (Automated Crawler Bot)
+        description: | # this will include new lines to allow paragraphs
+          ThuisBot is a script that periodically scraps websites gathering relevant information about new houses for sale and sends automatic messages via Telegram when a new house match the set criteria (considering value, square meters, age of the property, energy label, among others). 
+          Unfortunately, I can't disclose the code, but it's built using Scrapy, Pandas, Numpy, Requests, Regular Expression and GitHub Actions.
+          The project was driven by a personal motivation.
 
       - layout: top-right
-        title: Recommendations with IBM using Natual Language Processing (NLP)
+        title: COVID19 - Countries Wealth, Cases, Deaths and Vaccines (Analytics)
+        link: github.com/sjuanandres0/covid19
+        # link_text: Project Website
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: https://github.com/sjuanandres0/covid19
+          - title: medium
+            icon: fab fa-medium
+            url: https://sjuanandres0.medium.com/covid-19-countries-wealth-cases-deaths-and-vaccines-ff7fa8a83b1b
+          - title: jupyter
+            icon: fas fa-book-open #far fa-bookmark
+            url: https://nbviewer.jupyter.org/github/sjuanandres0/covid19/blob/master/COVID-19_WealthCasesDeathsVaccines.ipynb
+          - title: kaggle
+            icon: fab fa-kaggle
+            url: https://www.kaggle.com/juanandressimonetti/covid-19-countries-wealth-cases-deaths-and-vacc
+        description: | # this will include new lines to allow paragraphs
+          This project was part from the Udacity Data Scientist Nanodegree where it was required to write a Data Analytics blog post from a topic of my choice. I decided to work on COVID-19 data trying to reply a question that was interesting for me. This project was particularly useful to learn how to get real world data in the huge internet and generate interactive visualizations with Plotly. Additionally, I used Numpy, Pandas, SKLearn, Missingno and Seaborn. 
+
+      - layout: top-right
+        title: IBM Recommendations with Natual Language Processing (NLP)
         link: github.com/sjuanandres0/Recommendations_with_IBM
         # link_text: Project Website
         additional_links:
@@ -115,7 +138,18 @@ content:
           In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and make recommendations to them about new articles I think they will like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, User-User Collaborative Filtering, Content and Matrix Factorization.
           This project is part of the Udacity Nanodegree Program.
 
-
+      - layout: top-right
+        title: Acea Smart Water Analytics, River Arno hydrometry (ML, XGBoost)
+        link: kaggle.com/juanandressimonetti/cmp-acea-smart-water-analytics
+        # link_text: Project Website
+        additional_links:
+          - title: kaggle
+            icon: fab fa-kaggle
+            url: https://www.kaggle.com/juanandressimonetti/cmp-acea-smart-water-analytics
+        description: | # this will include new lines to allow paragraphs
+          In this project I predicted the Hydrometry (river level) of River Arno (Italy) considering historical records of Rainfall and Temperature in different geographical points. The Machine Learning algorithm used was XGBoost. 
+          This project is part of a Kaggle Analytics Competition.
+          
 #######################
   - title: Working Experience 
     layout: list
@@ -165,30 +199,29 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
-        title: Data Scientist Nanodegree
+      - layout: top
+        title: Data Scientist
         caption: 2021
-        sub_title: Udacity
+#        sub_title: Udacity Nanodegree
         link: https://www.udacity.com/course/data-scientist-nanodegree--nd025
-        link_text: UDSN
-        description: | # this will include new lines to allow paragraphs
-           Got theory and hands-on experience in real world Data Science projects. 
+        link_text: Udacity Nanodegree
+#        description: | # this will include new lines to allow paragraphs
+#           Got theory and hands-on experience in real world Data Science projects. 
 
-      - layout: top-right
+      - layout: top
         title: Industrial Engineer
         caption: 2012-2018
-        sub_title: Universidad Nacional de Rosario 
+#        sub_title: Universidad Nacional de Rosario 
         link: https://web.fceia.unr.edu.ar/es/ingenier%C3%ADa-industrial.html
-        link_text: UNR
-        description: | # this will include new lines to allow paragraphs
-           Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
-
+        link_text: Universidad Nacional de Rosario
+#        description: | # this will include new lines to allow paragraphs
+#           Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
 
 #######################
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      When not in front of the screen, I would probably be climbing, cycling, cooking or learning chess/dutch.
+      When not in front of the screen, I am climbing, cycling, cooking (maybe BBQing) or learning chess/dutch.
 
 #      Look at this cool image  
 #      ![Trees](/images/landscape-trees.jpg "Trees")
