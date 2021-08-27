@@ -167,9 +167,9 @@ content:
         quote: >
           <mark>Flask</mark> <mark>Heroku CI/CD</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>jQuery</mark> <mark>Plotly</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project consist of building a webapp to practise software engineering skills. 
+          This project consists of building a webapp to practise software engineering skills. 
           It's a tailormade COVID-19 Dashboard that updates automatically.
-          It's hosted in Heroku and it's feeded directly from Our World in Data.
+          It's hosted in Heroku and it's fed directly from Our World in Data.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -183,7 +183,7 @@ content:
         quote: >
           <mark>NLTK</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Matplotlib</mark> <mark>RE</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and made recommendations to them about 
+          In this project I analysed the interactions that users have with articles on the IBM Watson Studio platform and made recommendations to them about 
           new articles they would like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, 
           User-User Collaborative Filtering, Content and Matrix Factorization.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
@@ -271,7 +271,7 @@ content:
 #           Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
 
 #######################
-  - title: A Little More About Me & Extras
+  - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       I'm an Argentinian, based in The Netherlands with Italian roots.      
@@ -280,9 +280,9 @@ content:
 
       Here I have a bunch of [certificates](https://drive.google.com/drive/folders/1wNc2onWNweqsdH2qPPKaSqoI4V9zgWWw?usp=sharing).
 
-      
+      Other technical skills: Office, Access, SQL, VBA, Python, GeoPandas, Git, Spark, Power BI, Tableau, GCP, Power Automate, HTML/CSS, AutoCAD, Lindo, Arena, Minitab, Orange, Lean Manufacturing, Project Management, Six Sigma, Process Improvement 
 
-      Curious about the code for this page? Check [my repo](https://github.com/sjuanandres0/sjuanandres0.github.io).
+      Curious about this page code? Check out [my repo](https://github.com/sjuanandres0/sjuanandres0.github.io).
 
 #      Look at this cool image  
 #      ![Trees](/images/landscape-trees.jpg "Trees")
