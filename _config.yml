@@ -215,7 +215,7 @@ content:
         caption: January 2020 - Present
         description: | # this will include new lines to allow paragraphs
             - Developed a SQL+Python tool to improve accuracy, scalability and speed of P2O transit times maintenance (~x400 times faster).
-            - Developed a Python script to map shipment volume data into Orange & Purple geography in minutes.
+            - Developed a Python script to map shipment volume data into Orange & Purple geographies in minutes.
             - Support management with the analysis, interpretation and application of complex information.
             - Plan and execute location and routing system updates in support of operational changes.
             - Coordinate planning for system updates with colleagues and stakeholders in the field and central network.
