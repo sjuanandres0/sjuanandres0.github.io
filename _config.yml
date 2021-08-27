@@ -173,7 +173,7 @@ content:
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
-        title: IBM Recommendations with Natual Language Processing (NLP)
+        title: IBM Recommendations with Natural Language Processing (NLP)
         link: github.com/sjuanandres0/Recommendations_with_IBM
         # link_text: Project Website
         additional_links:
