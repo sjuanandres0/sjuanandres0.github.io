@@ -1,6 +1,9 @@
 Hi there,
+
 This repo contains the code for my CV Web version.
-To check it out, follow: sjuanandres0.github.io
+
+To check it out, follow: [sjuanandres0.github.io](https://sjuanandres0.github.io)
+
 Hope this helps!
 Cheers, Juan.
 

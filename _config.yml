@@ -82,7 +82,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
-        title: Short Term Bitcoin Price Prediction with Deep Learning (DL)
+        title: Short Term Bitcoin Price Prediction with Deep Learning (DL-RNN-LSTM)
         link: github.com/sjuanandres0/crypto
         # link_text: Project Website
         additional_links:
@@ -93,20 +93,23 @@ content:
             icon: fab fa-medium
             url: https://medium.com/geekculture/short-term-bitcoin-price-prediction-with-deep-learning-ab4386e84b5
           - title: jupyter
-            icon: fas fa-book-open #far fa-bookmark
+            icon: fas fa-book-open 
             url: https://nbviewer.jupyter.org/github/sjuanandres0/crypto/blob/main/Main.ipynb
         quote: >
           <mark>Deep Learning - Keras</mark> <mark>Plotly</mark> <mark>Matplotlib</mark> <mark>SKLearn</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put into practice many of the skills learned. The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep Learning. 
-#          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. Do not take financial decisions based on the results.  
+          This project was triggered by the Capstone Project of the Udacity Data Scientist Nanodegree Program where I had to put into practice many of the skills learned. 
+          The project topic was free so, due to the recent hype in Cryptocurrencies, I decided to work on a Bitcoin Price Predictor using Deep Learning. 
+#          Disclaimer: the model and predictions do not pretend to be used as financial advice. They were created for educational purposes and with a time constraint. 
+#          Do not take financial decisions based on the results.  
 
       - layout: top-right
         title: ThuisBot (Automated Crawler Bot)
         quote: >
           <mark>Scrapy</mark> <mark>Requests</mark> <mark>RE</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          ThuisBot is a script that periodically scraps websites gathering relevant information about new houses for sale and sends automatic messages via Telegram when a new house matches the set criteria (considering value, square meters, age of the property, energy label, among others). 
+          ThuisBot is a script that periodically scraps websites gathering relevant information about new houses for sale and sends automatic messages via Telegram when a 
+          new house matches the set criteria (considering value, square meters, age of the property, energy label, among others). 
           Unfortunately, I can't disclose the code, but it's built using Scrapy, Pandas, Numpy, Requests, Regular Expression and GitHub Actions.
           The project was driven by a personal need.
 
@@ -122,9 +125,8 @@ content:
           <mark>SQLAlchemy</mark> <mark>NLTK</mark> <mark>RE</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
           This project consists of an API that classifies disaster messages. 
-          For this purpose, a Machine Learning model using NLTK was trained with a labelled dataset provided by Figure Eight, saved in a pickle file and embedded in a webapp using Flask and Heroku. 
+          For this purpose, a Machine Learning model using NLTK was trained with a labelled dataset, saved in a pickle file and embedded in a webapp using Flask and Heroku. 
           Users/pipelines are then able to use the trained model to classify messages according to the type of assistance required. 
-          With supervised learning, a Machine Learning model using NLTK library was trained in a labelled dataset provided by Figure Eight. 
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -147,7 +149,9 @@ content:
         quote: >
           <mark>Plotly</mark> <mark>Seaborn</mark> <mark>Missingno</mark> <mark>SKLearn</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          This project was part of the Udacity Data Scientist Nanodegree where it was required to write a Data Analytics blog post from a topic of my choice. I decided to work on COVID-19 data trying to reply questions that were particularly interesting for me. This project was very useful to learn how to gather real world data in the huge internet and generate interactive visualizations with Plotly. Additionally, I used Numpy, Pandas, SKLearn, Missingno and Seaborn. 
+          This project was part of the Udacity Data Scientist Nanodegree where it was required to write a Data Analytics blog post from a topic of my choice. 
+          I decided to work on COVID-19 data trying to reply questions that were particularly interesting for me. This project was very useful to learn how to 
+          gather real world data in the huge internet and generate interactive visualizations with Plotly. Additionally, I used Numpy, Pandas, SKLearn, Missingno and Seaborn. 
 
       - layout: top-right
         title: COVID19 - Dashboard (Analytics)
@@ -164,8 +168,8 @@ content:
           <mark>Flask</mark> <mark>Heroku CI/CD</mark> <mark>HTML</mark> <mark>CSS</mark> <mark>jQuery</mark> <mark>Plotly</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
           This project consist of building a webapp to practise software engineering skills. 
-          It consists of a tailormade COVID-19 Dashboard that updates automatically.
-          It's hosted in Heroku and it's feeded from Our World in Data.
+          It's a tailormade COVID-19 Dashboard that updates automatically.
+          It's hosted in Heroku and it's feeded directly from Our World in Data.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -179,7 +183,9 @@ content:
         quote: >
           <mark>NLTK</mark> <mark>SKLearn</mark> <mark>Pickle</mark> <mark>Matplotlib</mark> <mark>RE</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and made recommendations to them about new articles I think they will like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, User-User Collaborative Filtering, Content and Matrix Factorization.
+          In this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform and made recommendations to them about 
+          new articles they would like. For this purpose, I used NLTK library to process text data and provide recommendations based on Rank, 
+          User-User Collaborative Filtering, Content and Matrix Factorization.
           This project was promoted/facilitated by Udacity in the Data Scientist program.
 
       - layout: top-right
@@ -193,7 +199,8 @@ content:
         quote: >
           <mark>XGBoost</mark> <mark>SKLearn</mark> <mark>Seaborn</mark> <mark>Missingno</mark> <mark>Matplotlib</mark> <mark>Numpy</mark> <mark>Pandas</mark>
         description: | # this will include new lines to allow paragraphs
-          In this project I predicted the Hydrometry (river level) of River Arno (Italy) considering historical records of Rainfall and Temperature in different geographical points. The Machine Learning algorithm used was XGBoost. 
+          In this project I predicted the Hydrometry (river level) of River Arno (Italy) considering historical records of Rainfall and Temperature in 
+          different geographical points. The Machine Learning algorithm used was XGBoost. 
           This project is part of a Kaggle Analytics Competition.
           
 #######################
@@ -264,10 +271,18 @@ content:
 #           Final project: “Technical and economic feasibility studies of an aluminium trailer company”.
 
 #######################
-  - title: A Little More About Me
+  - title: A Little More About Me & Extras
     layout: text
     content: | # this will include new lines to allow paragraphs
+      I'm an Argentinian, based in The Netherlands with Italian roots.      
+      
       When not in front of the screen, I am climbing, cycling, cooking (maybe BBQing) or learning chess/dutch.
+
+      Here I have a bunch of [certificates](https://drive.google.com/drive/folders/1wNc2onWNweqsdH2qPPKaSqoI4V9zgWWw?usp=sharing).
+
+      
+
+      Curious about the code for this page? Check [my repo](https://github.com/sjuanandres0/sjuanandres0.github.io).
 
 #      Look at this cool image  
 #      ![Trees](/images/landscape-trees.jpg "Trees")
