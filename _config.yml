@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Juan Andres SIMONETTI
-title: Industrial Engineer keen on Data Science
+title: Industrial Engineer - Data Scientist
 email: simonettijuanandres@gmail.com
 #website: sjuanandres0.github.io
 
@@ -64,7 +64,7 @@ gtag: "G-5B1JFM643R" #"UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Juan and I'm an <mark>Industrial Engineer</mark> keen on <mark>Data Science</mark>.
+  Hi, my name is Juan and I'm an <mark>Industrial Engineer</mark> - <mark>Data Science</mark>.
 
   I certainly don’t know everything but I can learn anything (or well... almost anything 🙃).
 
@@ -81,6 +81,25 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-right
+        title: Crypto and Stocks dashboard with automated signals (Analytics, ML, Bot)
+        link: github.com/sjuanandres0/Chewbacca
+        # link_text: Project Website
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: https://github.com/sjuanandres0/Chewbacca
+          - title: webapp
+            icon: fas fa-chart-line
+            url: https://chewbacca22.herokuapp.com/
+        quote: >
+          <mark>Dash/Plotly</mark> <mark>TA-Lib</mark> <mark>Heroku CI/CD</mark> <mark>HTML/CSS</mark> <mark>Requests</mark> <mark>Numpy</mark> <mark>Pandas</mark>
+        description: | # this will include new lines to allow paragraphs
+          [ONGOING] The project consists on an automated pipeline that extracts and process ticker data (selected cryptos and stocks) to generate buy/hold/sell signals triggering Telegram messages.
+          Additionally, the collected data is displayed in a dashboard, along with the backtesting of different predefined trading strategies. 
+          The user can select the ticker and a date range and backend script will automatically calculate and refresh the plots for all strategies.
+          This project was initiated by personal motivation and it’s still in development, having as next step the addition of Artificial Intelligence and more Technical Analysis Indicators among many other ideas.
+
       - layout: top-right
         title: Short Term Bitcoin Price Prediction with Deep Learning (DL-RNN-LSTM)
         link: github.com/sjuanandres0/crypto
@@ -208,11 +227,20 @@ content:
     layout: list
     content:
       - layout: left
+        title: Data Engineer
+        link: FedEx.com
+        # link_text: boringcompany.com
+        sub_title: FedEx #[FedEx](https://www.FedEx.com/)
+        caption: December 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            - Working on automated pipelines for reports in Spotfire for different functions/departments/projects.
+
+      - layout: left
         title: Industrial Engineer
         link: FedEx.com
         # link_text: boringcompany.com
         sub_title: FedEx #[FedEx](https://www.FedEx.com/)
-        caption: January 2020 - Present
+        caption: January 2020 - November 2021
         description: | # this will include new lines to allow paragraphs
             - Developed a SQL+Python tool to improve accuracy, scalability and speed of P2O transit times maintenance (~x400 times faster).
             - Developed a Python script to map shipment volume data into Orange & Purple geographies in minutes.
@@ -281,7 +309,7 @@ content:
 
       Here I have a bunch of [certificates](https://drive.google.com/drive/folders/1wNc2onWNweqsdH2qPPKaSqoI4V9zgWWw?usp=sharing).
 
-      Other technical skills: Office, Access, SQL, VBA, Python, GeoPandas, Git, Spark, Power BI, Tableau, GCP, Power Automate, HTML/CSS, AutoCAD, Lindo, Arena, Minitab, Orange, Lean Manufacturing, Project Management, Six Sigma, Process Improvement 
+      Other technical skills: Office, Access, SQL, VBA, Python, GeoPandas, Dash, Airflow, Git, Spark, Spotfire, TDV (Data Virtualization), Power BI, Tableau, GCP, Power Automate, HTML/CSS, AutoCAD, Lindo, Arena, Minitab, Orange, Lean Manufacturing, Project Management, Six Sigma, Process Improvement 
 
       Curious about this page code? Check out [my repo](https://github.com/sjuanandres0/sjuanandres0.github.io).
 
