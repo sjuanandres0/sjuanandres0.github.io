@@ -64,7 +64,7 @@ gtag: "G-5B1JFM643R" #"UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Juan and I'm an <mark>Industrial Engineer</mark> - <mark>Data Science</mark>.
+  Hi, my name is Juan and I'm an <mark>Industrial Engineer</mark> - <mark>Data Scientist</mark>.
 
   I certainly don’t know everything but I can learn anything (or well... almost anything 🙃).
 
